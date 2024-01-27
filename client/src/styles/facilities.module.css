@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+.facilities {
+  display: flex;
+  padding-top: 20px;
+  padding-left: 5%;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: #b1b2c6;
+}
+
+.facilities h1{
+  font-size: 5rem;
+  font-family: 'Open+Sans';
+  font-weight: 500;
+  margin-bottom: 20px;
+  color:  darkred;
+  
+}
+
+.carousel{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+.contents{
+  margin-top: 50px;
+  font-family: 'Open';
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: #b1b2c6;
+}
+
+.contents h2{
+  margin-left: 100px;
+  font-family: 'Open+Sans';
+  font-size: 3rem;
+  color: darkred;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+ul {
+  list-style-type: none;
+  margin-left: 50px;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+/* Heading Styles */
+li h3 {
+  color: #461717;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+/* Paragraph Styles */
+li p {
+  color: #666;
+  font-size: 1.8rem;
+}
+
+/* Responsive Styles (Optional) */
+@media (max-width: 768px) {
+  .body {
+    padding: 10px;
+  }
+}

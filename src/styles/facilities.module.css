@@ -1,0 +1,18 @@
+.facilities {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  /* width: 90%; */
+  margin-top: 2rem;
+}
+.facilities-container {
+  margin: auto;
+  width: 90%;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}

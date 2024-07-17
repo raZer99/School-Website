@@ -1,40 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+Link > a {
+  text-decoration: none;
+}
 
-.App {
+.title {
   text-align: center;
+  font-family: sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.section-title {
+  text-align: center;
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.center-table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.center-table th,
+.center-table td {
+  border: 1px solid black;
+  border-color: blue;
+  text-align: center;
+  padding: 3px;
 }
 
-.App-link {
-  color: #61dafb;
+.center-table th {
+  background-color: palegoldenrod;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.center-table th,
+.center-table td {
+  background-color: #d6eeee;
+}
+
+.center-table tr:hover {
+  background-color: gold;
+}
+
+body {
+  background-color: #f7fbfc;
 }
